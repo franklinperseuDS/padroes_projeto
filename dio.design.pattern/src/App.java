@@ -1,3 +1,4 @@
+import one.digital.gof.facade.Facade;
 import one.digital.gof.singleton.SingletonEager;
 import one.digital.gof.singleton.SingletonLazy;
 import one.digital.gof.singleton.SingletonLazyHolder;
@@ -39,5 +40,14 @@ public class App {
         robo.setComportamento(defensivo);
         robo.mover();
         System.out.println("*****Fim Strategy*****");
+
+        //facade
+
+        System.out.println("*****Inicio facade***** ");
+        System.out.println();
+        Facade facade = new Facade();
+        facade.migrarCliente("Thom","69000000");
+        System.out.println();
+        System.out.println("*****fim facade*****");
     }
 }
