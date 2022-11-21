@@ -13,6 +13,7 @@ public class Endereco {
 
     @Id
     private String cep;
+    private String logradouro;
     private String complemento;
     private String bairro;
     private String localidade;
@@ -21,6 +22,16 @@ public class Endereco {
     private String gia;
     private String ddd;
     private String siafi;
+
+
+
+    public String getLogradouro() {
+        return logradouro;
+    }
+
+    public void setLogradouro(String logradouro) {
+        this.logradouro = logradouro;
+    }
 
     public String getCep() {
         return cep;
