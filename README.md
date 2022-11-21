@@ -18,4 +18,13 @@
 ## projeto spring 
 - para testar pode usar o link[http://localhost:8080/clientes] com o verbo get ( caso esteja usando o postman ou thunderclient (vscode))
 -para inserir use o mesmo link[http://localhost:8080/clientes] mas com o verbo post e utilize o seguinte json: 
-`{"nome":"fulano","endereco": {"cep":"69000000"}}` 
+`{"nome":"fulano","endereco": {"cep":"69000000"}}`
+
+## informações adicionais
+- java 11
+- maven
+- spring boot 2.7.5
+- spring web
+- spring data JPA
+- h2 Database
+- OpenFeing
